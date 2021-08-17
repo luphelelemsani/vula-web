@@ -1,0 +1,92 @@
+{
+  "Transactions": [
+    {
+      "id": 1,
+      "payment_reference": "COMPLETION",
+      "image": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fd4cc2ba9-2a6d-464f-81dc-e7aae0ba5a6c.jpg?fit=scale-down&source=next&width=700",
+      "card_acceptor_mcc": 12345,
+      "card_acceptor_name": "Amazon.com",
+      "payout_start_date": "2021-08-16",
+      "payout_start_end": "2021-09-28",
+      "amount": 800,
+      "repayment": {
+        "installment_amount": 200,
+        "installment_value": 2
+      },
+      "fee": {
+        "active": "true",
+        "name ": "Vula Merchant Fee",
+        "amount": 40,
+        "created_time": "2021-08-16",
+        "last_modified_time": "2021-08-16",
+        "currency_code": "USD"
+      }
+    },
+    {
+      "id": 2,
+      "payment_reference": "COMPLETION",
+      "image": "https://logos-world.net/wp-content/uploads/2020/05/Zara-Emblem.jpg",
+      "card_acceptor_mcc": 24681,
+      "card_acceptor_name": "ZARA",
+      "payout_start_date": "2021-08-10",
+      "payout_start_end": "2021-09-22",
+      "amount": 1000,
+      "repayment": {
+        "installment_amount": 250,
+        "installment_value": 3
+      },
+      "fee": {
+        "active": "true",
+        "name ": "Vula Merchant Fee",
+        "amount": 50,
+        "created_time": "2021-08-10",
+        "last_modified_time": "2021-08-10",
+        "currency_code": "USD"
+      }
+    },
+    {
+      "id": 3,
+      "payment_reference": "COMPLETION",
+      "image": "https://1000logos.net/wp-content/uploads/2019/05/Off-White-emblem.jpg",
+      "card_acceptor_mcc": 54321,
+      "card_acceptor_name": "Off-White",
+      "payout_start_date": "2021-08-06",
+      "payout_start_end": "2021-09-18",
+      "amount": 400,
+      "repayment": {
+        "installment_amount": 100,
+        "installment_value": 2
+      },
+      "fee": {
+        "active": "true",
+        "name ": "Vula Merchant Fee",
+        "amount": 20,
+        "created_time": "2021-08-06",
+        "last_modified_time": "2021-08-06",
+        "currency_code": "USD"
+      }
+    },
+    {
+      "id": 4,
+      "payment_reference": "COMPLETION",
+      "image": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fd4cc2ba9-2a6d-464f-81dc-e7aae0ba5a6c.jpg?fit=scale-down&source=next&width=700",
+      "card_acceptor_mcc": 18642,
+      "card_acceptor_name": "Amazon.com",
+      "payout_start_date": "2021-07-16",
+      "payout_start_end": "2021-08-28",
+      "amount": 800,
+      "repayment": {
+        "installment_amount": 200,
+        "installment_value": 4
+      },
+      "fee": {
+        "active": "true",
+        "name ": "Vula Merchant Fee",
+        "amount": 40,
+        "created_time": "2021-07-16",
+        "last_modified_time": "2021-07-16",
+        "currency_code": "USD"
+      }
+    }
+  ]
+}

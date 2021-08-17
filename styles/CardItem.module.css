@@ -1,0 +1,104 @@
+.cardContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 200px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #ff9472, #f2709c);
+  cursor: pointer;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  backface-visibility: hidden;
+}
+
+.cardContainer:hover {
+  background: #17141d;
+  transition: all 0.5s ease-out;
+}
+
+.cardLogo {
+  position: relative;
+  width: 40px;
+  top: 20px;
+  left: 20px;
+  animation-name: moveInLeft;
+  animation-duration: 1.2s;
+  backface-visibility: hidden;
+}
+
+.cardContainer > .cardName {
+  position: relative;
+  top: -14px;
+  margin: 0 0 0 65px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #000051;
+  text-transform: uppercase;
+  animation-name: moveInLeft;
+  animation-duration: 1.5s;
+  backface-visibility: hidden;
+}
+
+.mastercard {
+  position: relative;
+  float: right;
+  top: -52px;
+  right: 20px;
+  width: 50px;
+  animation-name: moveInRight;
+  animation-duration: 1s;
+  backface-visibility: hidden;
+}
+
+.cardNumber {
+  position: relative;
+  padding: 35px 0 0 15px;
+  animation-name: moveInLeft;
+  animation-duration: 1.2s;
+  backface-visibility: hidden;
+}
+
+.cardNumber p {
+  list-style: none;
+  color: #fff;
+  font-family: monospace;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0 10px;
+  display: inline-block;
+}
+
+.cardNetwork {
+  position: relative;
+  top: -30px;
+  width: 40px;
+  right: 22px;
+  float: right;
+  transform: rotate(90deg);
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
