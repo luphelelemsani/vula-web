@@ -1,6 +1,6 @@
-# Sproutify Web
+# Vula Web
 
-Sample code associated with the _Getting started with Marqeta APIs_ webinar.
+The application uses the [`Marqeta Core API`](https://www.marqeta.com/docs/core-api/introduction) for card isssuing.
 
 This code is for demonstration purposes only.
 
